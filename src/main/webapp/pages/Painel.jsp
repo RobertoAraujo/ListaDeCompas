@@ -20,13 +20,14 @@
 	<h3 style="text-align: center;">Seja bem vindo usuario !</h3>
 	<hr>
 	<div style="padding: 2%; width: 100%; height: 100%; border: solid 1px;">
-		<table class="table table-dark">
+	
+		<table class="table table-bordered">
 			<thead>
 				<tr>
 					<th scope="col">#</th>
-					<th scope="col">Primeiro</th>
-					<th scope="col">Último</th>
-					<th scope="col">Nickname</th>
+					<th scope="col">Produtos</th>
+					<th scope="col">QTD</th>
+					<th scope="col">Ações</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -44,8 +45,7 @@
 				</tr>
 				<tr>
 					<th scope="row">3</th>
-					<td>Larry</td>
-					<td>the Bird</td>
+					<td colspan="2">Larry the Bird</td>
 					<td>@twitter</td>
 				</tr>
 			</tbody>
