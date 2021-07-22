@@ -15,7 +15,7 @@
 		style="width: 100vw; height: 100vh; background: #6C7A89; display: flex; flex-direction: row; justify-content: center; align-items: center;">
 		<form action="SeleveteValidar" method="POST">
 		
-			<input type="hidden"id="url" name="url" value="<%= request.getParameter("url")%>">
+			<input id="url" name="url" value="<%= request.getParameter("url")%>">
 			
 			<table
 				style="border: solid 1px; width: 30vw; height: 50vh; border-radius: 15px;">

@@ -9,6 +9,7 @@
 	src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
+<input id="url" name="url" value="<%= request.getParameter("url")%>">
 
 	<!-- Script de alerta -->
 	<input type="text" placeholder="Digite um texto aqui" id="Alert">

@@ -59,7 +59,6 @@ public class SeleveteValidar extends HttpServlet {
 			dispatcher.forward(request, response);
 			
 		}
-		doGet(request, response);
 		
 	}
 
